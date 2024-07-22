@@ -1,0 +1,21 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "minecraft:sugar"
+        },
+        {
+            "item": "minecraft:bamboo"
+        },
+        {
+            "item": "minecraft:bamboo"
+        }
+    ],
+    "results": [
+        {
+            "fluid": "createpanda:bamboo_cream",
+            "amount": 1000
+        }
+    ],
+    "heatRequirement": "heated"
+}

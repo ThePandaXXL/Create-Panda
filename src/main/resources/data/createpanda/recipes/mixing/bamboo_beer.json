@@ -1,0 +1,24 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "fluid": "minecraft:water",
+            "amount": 250
+        },
+        {
+            "item": "minecraft:bamboo"
+        },
+        {
+            "item": "minecraft:nether_wart"
+        },
+        {
+            "item": "minecraft:glass_bottle"
+        }
+    ],
+    "results": [
+        {
+            "item": "createpanda:bamboo_beer"
+        }
+    ],
+    "heatRequirement": "heated"
+}

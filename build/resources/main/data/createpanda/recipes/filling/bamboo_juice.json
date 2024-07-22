@@ -1,0 +1,23 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+      {
+        "type": "forge:nbt",  
+
+		    "item": "minecraft:potion",  
+
+		    "count": 1,  
+
+		    "nbt": "{Potion:\"minecraft:water\"}"
+      },
+      {
+        "fluid": "createpanda:bamboo_syrup",
+        "amount": 250
+      }
+    ],
+    "results": [
+      {
+        "item": "createpanda:bamboo_juice"
+      }
+    ]
+  }

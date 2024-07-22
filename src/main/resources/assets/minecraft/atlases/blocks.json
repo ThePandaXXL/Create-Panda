@@ -1,0 +1,20 @@
+{
+    "sources": [
+        {
+            "type": "single",
+            "resource": "createpanda:fluid/bamboo_cream_flow"
+        },
+        {
+            "type": "single",
+            "resource": "createpanda:fluid/bamboo_cream_still"
+        },
+        {
+            "type": "single",
+            "resource": "createpanda:fluid/bamboo_syrup_flow"
+        },
+        {
+            "type": "single",
+            "resource": "createpanda:fluid/bamboo_syrup_still"
+        }
+    ]
+}

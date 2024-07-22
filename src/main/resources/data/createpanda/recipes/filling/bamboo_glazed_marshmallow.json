@@ -1,0 +1,18 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+      {
+        "item": "create_confectionery:marshmallow"
+      },
+      {
+        "fluid": "createpanda:bamboo_cream",
+        "nbt": {},
+        "amount": 250
+      }
+    ],
+    "results": [
+      {
+        "item": "createpanda:bamboo_glazed_marshmallow"
+      }
+    ]
+  }

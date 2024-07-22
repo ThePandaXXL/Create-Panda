@@ -1,0 +1,18 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+      {
+        "item": "createaddition:cake_base_baked"
+      },
+      {
+        "fluid": "createpanda:bamboo_cream",
+        "nbt": {},
+        "amount": 500
+      }
+    ],
+    "results": [
+      {
+        "item": "createpanda:bamboo_cream_cake"
+      }
+    ]
+  }

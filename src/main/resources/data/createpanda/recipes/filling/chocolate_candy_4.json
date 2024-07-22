@@ -1,0 +1,18 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+      {
+        "item": "createpanda:bar_of_bamboo"
+      },
+      {
+        "fluid": "create:chocolate",
+        "nbt": {},
+        "amount": 250
+      }
+    ],
+    "results": [
+      {
+        "item": "createpanda:chocolate_candy_4"
+      }
+    ]
+  }

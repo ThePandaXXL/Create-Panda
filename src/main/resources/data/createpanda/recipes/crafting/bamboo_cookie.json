@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        "xax",
+        "   "
+    ],
+    "key": {
+        "x": {
+            "item": "minecraft:wheat"
+        },
+        "a": {
+            "item": "minecraft:bamboo"
+        }
+    },
+    "result": {
+        "item": "createpanda:bamboo_cookie",
+        "count": 8
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": {
+        "item": "createpanda:bamboo_dough"
+    },
+    "result": "createpanda:bamboo_bread",
+    "experience": 0.0,
+    "cookingtime": 100
+}

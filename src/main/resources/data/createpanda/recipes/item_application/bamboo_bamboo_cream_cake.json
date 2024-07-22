@@ -1,0 +1,16 @@
+{
+    "type": "create:item_application",
+    "ingredients": [
+      {
+        "item": "createpanda:bamboo_cream_cake"
+      },
+      {
+        "item": "minecraft:bamboo"
+      }
+    ],
+    "results": [
+      {
+        "item": "createpanda:bamboo_bamboo_cream_cake"
+      }
+    ]
+  }

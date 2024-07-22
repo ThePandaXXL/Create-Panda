@@ -1,0 +1,20 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "  GBG",
+        " GBG ",
+        "GBG  "
+    ],
+    "key": {
+        "G": {
+            "item": "minecraft:gold_ingot"
+        },
+        "B": {
+            "item": "minecraft:bamboo"
+        }
+    },
+    "result": {
+        "item": "createpanda:golden_bamboo"
+    },
+    "acceptMirrored": false
+}
