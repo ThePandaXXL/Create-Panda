@@ -2,7 +2,7 @@
 
 ### **[Click Here To Support Our Projects](https://t.ly/8QGsF)**
 # 
-#### **\### NEW: [All in One: Create Panda](https://www.curseforge.com/minecraft/modpacks/all-in-one-create-panda)**
+#### **\### NEW: [All in One: Create Panda](https://modrinth.com/modpack/aio-create-panda)**
 
 **###** Adds more create mods and the requirements for Create Panda.
 #
