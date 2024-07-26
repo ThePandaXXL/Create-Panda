@@ -1,12 +1,12 @@
 package com.thepandaxxl.createpanda;
 
-//import com.simibubi.create.content.processing.sequenced.SequencedAssemblyItem;
+import com.Imphuls3.createcafe.common.item.foods.ModFoods;
+import com.simibubi.create.content.processing.sequenced.SequencedAssemblyItem;
 import com.thepandaxxl.createpanda.Tags.BambooChocolateCandyItem;
 import com.thepandaxxl.createpanda.Tags.CPSoupItem;
 import com.thepandaxxl.createpanda.Tags.BambooBeerItem;
 import com.thepandaxxl.createpanda.Tags.BambooJuiceItem;
 
-//import net.mcreator.createconfectionery.item.FullChocolateBarItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -16,11 +16,10 @@ import net.minecraftforge.registries.RegistryObject;
 public class CPItems {
 
     public static final DeferredRegister<Item> ITEMS;
-    // public static final RegistryObject<Item> BAMBOO_OREO;
-    // public static final RegistryObject<Item> BAMBOO_OREO_INCOMPLETE;
+    public static final RegistryObject<Item> BAMBOO_OREO;
+    public static final RegistryObject<Item> BAMBOO_OREO_INCOMPLETE;
     public static final RegistryObject<Item> BAMBOOED_APPLE;
     public static final RegistryObject<Item> BAMBOO_BERRIES;
-    public static final RegistryObject<Item> BAMBOO_GLAZED_MARSHMALLOW;
     public static final RegistryObject<Item> BAR_OF_BAMBOO;
     public static final RegistryObject<Item> BAMBOO_CHOCOLATE_CANDY_1;
     public static final RegistryObject<Item> CHOCOLATE_CANDY_4;
@@ -43,16 +42,20 @@ public class CPItems {
     static {
         ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, createpanda.ID);
 
+        BAMBOO_OREO = ITEMS.register("bamboo_oreo", () -> {
+            return new Item(new Item.Properties().food(ModFoods.OREO));
+        });
+
+        BAMBOO_OREO_INCOMPLETE = ITEMS.register("bamboo_oreo_incomplete", () -> {
+            return new SequencedAssemblyItem(new Item.Properties());
+        });
+
         BAMBOOED_APPLE = ITEMS.register("bambooed_apple", () -> {
             return new Item(new Item.Properties().food(CPFoods.BAMBOOED_APPLE));
         });
 
         BAMBOO_BERRIES = ITEMS.register("bamboo_glazed_berries", () -> {
             return new Item(new Item.Properties().food(CPFoods.BAMBOO_BERRIES));
-        });
-
-        BAMBOO_GLAZED_MARSHMALLOW = ITEMS.register("bamboo_glazed_marshmallow", () -> {
-            return new Item(new Item.Properties().food(CPFoods.BAMBOO_GLAZED_MARSHMALLOW));
         });
 
         BAR_OF_BAMBOO = ITEMS.register("bar_of_bamboo", () -> {

@@ -114,3 +114,10 @@ Bambus ist unter Anderem ein Item, das schnell wächst, also kann man in kürze 
 #     versionRange="[1.0.9,)"
 #     ordering="AFTER"
 #     side="BOTH"
+
+[[dependencies.createpanda]]
+    modId="createcafe"
+    mandatory=true
+    versionRange="[1.2.4-1.20.1,)"
+    ordering="AFTER"
+    side="BOTH"

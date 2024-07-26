@@ -1,0 +1,12 @@
+{
+    "required": true,
+    "package": "com.thepandaxxl.createpanda.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "mixins": [
+      "addPandaFood"
+    ],
+    "injectors": {
+      "defaultRequire": 1
+    },
+    "refmap": "createpanda.refmap.json"
+  }

@@ -3,6 +3,7 @@ plugins {
     id 'idea'
     id 'maven-publish'
     id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+    id 'org.spongepowered.mixin' version '0.7.+'
 }
 
 jarJar.enable()
@@ -132,8 +133,11 @@ repositories {
     // }
 
     flatDir {
-        dir 'C:/Users/loren/VS_Code_Projects/createpanda-1.20.1-47.2.0/mods'
+        dir 'C:/Users/loren/VS_Code_Projects/mr_createpanda-1.20.1-47.2.0/mods'
     }
+
+    maven { url = 'https://maven.minecraftforge.net/' }
+    maven { url = 'https://repo.spongepowered.org/repository/maven-public/' }
 
     maven {
         // location of the maven that hosts JEI files before January 2023
@@ -182,6 +186,9 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 
+    //Mixin
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+
     //Create
     implementation fg.deobf("com.simibubi.create:create-${create_minecraft_version}:${create_version}:slim") { transitive = false }
     implementation fg.deobf("com.jozufozu.flywheel:flywheel-forge-${flywheel_minecraft_version}:${flywheel_version}")
@@ -189,10 +196,10 @@ dependencies {
     jarJar(group: 'com.tterrag.registrate', name: 'Registrate', version: "[${registrate_version},)")
 
     //Create Additions
-    implementation fg.deobf("com.mrh0.createaddition:createaddition:1.20.1-1.1.1")
+    implementation fg.deobf("com.mrh0.createaddition:createaddition:1.20.1-1.2.4d")
 
     //Create Cafe
-    //implementation fg.deobf("com.Imphuls3.createcafe:createcafe:1.2.1-1.19.2")
+    implementation fg.deobf("com.Imphuls3.createcafe:createcafe:1.2.4-1.20.1")
 
     //Create Confecionery
     //implementation fg.deobf("net.mcreator.createconfectionery:create-confectionery:1.20.1_v1.0.9")
@@ -203,6 +210,14 @@ dependencies {
      // at runtime, use the full JEI jar for Forge
      runtimeOnly(fg.deobf("mezz.jei:jei-${mc_version}-forge:${jei_version}"))
 
+}
+
+mixin {
+    add sourceSets.main, 'mixins.createpanda.refmap.json'
+    config 'createpanda.mixins.json'
+
+    debug.verbose = true
+    debug.export = true
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

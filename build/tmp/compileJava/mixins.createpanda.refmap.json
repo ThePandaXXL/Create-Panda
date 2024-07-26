@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "com/thepandaxxl/createpanda/EntityOverride/pandaFood": {
+      "registerGoals": "Lnet/minecraft/world/entity/animal/Panda;m_8099_()V"
+    }
+  },
+  "data": {
+    "searge": {
+      "com/thepandaxxl/createpanda/EntityOverride/pandaFood": {
+        "registerGoals": "Lnet/minecraft/world/entity/animal/Panda;m_8099_()V"
+      }
+    }
+  }
+}

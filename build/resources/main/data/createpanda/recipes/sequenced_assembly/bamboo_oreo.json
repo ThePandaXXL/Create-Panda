@@ -1,0 +1,51 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "item": "createcafe:oreo_half"
+    },
+    "transitionalItem": {
+        "item": "createpanda:bamboo_oreo_incomplete"
+    },
+    "sequence": [
+        {
+            "type": "create:filling",
+            "ingredients": [
+                {
+                    "item": "createpanda:bamboo_oreo_incomplete"
+                },
+                {
+                    "fluid": "createpanda:bamboo_cream",
+                    "amount": 250
+                }
+            ],
+            "results": [
+                {
+                    "item": "createpanda:bamboo_oreo_incomplete"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "createpanda:bamboo_oreo_incomplete"
+                },
+                {
+                    "item": "createcafe:oreo_half"
+                }
+            ],
+            "results": [
+                {
+                    "item": "createpanda:bamboo_oreo"
+                }
+            ]
+        }
+    ],
+    "results": [
+        {
+            "item": "createpanda:bamboo_oreo",
+            "count": 1
+        }
+    ],
+    "loops": 1
+}

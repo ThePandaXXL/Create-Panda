@@ -1,0 +1,9 @@
+{
+    "package": "com.thepandaxxl.createpanda.EntityOverride",
+    "mixins": [
+        "pandaFood"
+    ],
+    "client": [],
+    "server": [],
+    "required": true
+}
