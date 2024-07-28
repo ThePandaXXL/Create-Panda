@@ -28,6 +28,7 @@ public class CPItems {
     public static final RegistryObject<Item> BAMBOO_SWEET_ROLL;
     public static final RegistryObject<Item> BAMBOO_DOUGH;
     public static final RegistryObject<Item> BAMBOO_BREAD;
+    public static final RegistryObject<Item> BAMBOO_CHICKEN;
     public static final RegistryObject<Item> GOLDEN_BAMBOO;
     public static final RegistryObject<Item> BAMBOO_BEER;
     public static final RegistryObject<Item> BAMBOO_JUICE;
@@ -88,6 +89,10 @@ public class CPItems {
 
         BAMBOO_BREAD = ITEMS.register("bamboo_bread", () -> {
             return new Item(new Item.Properties().food(CPFoods.BAMBOO_BREAD));
+        });
+
+        BAMBOO_CHICKEN = ITEMS.register("bamboo_chicken", () -> {
+            return new Item(new Item.Properties().food(CPFoods.BAMBOO_CHICKEN));
         });
 
         GOLDEN_BAMBOO = ITEMS.register("golden_bamboo", () -> {

@@ -44,6 +44,7 @@ public class CPCreativeModeTabs {
         output.accept(CPItems.BAMBOO_SWEET_ROLL.get());
         output.accept(CPItems.BAMBOO_DOUGH.get());
         output.accept(CPItems.BAMBOO_BREAD.get());
+        output.accept(CPItems.BAMBOO_CHICKEN.get());
         output.accept(CPItems.GOLDEN_BAMBOO.get());
         output.accept(CPItems.BAMBOO_BEER.get());
         output.accept(CPItems.BAMBOO_JUICE.get());

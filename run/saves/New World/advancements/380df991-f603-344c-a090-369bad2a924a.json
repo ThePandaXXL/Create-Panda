@@ -149,5 +149,17 @@
     },
     "done": true
   },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2024-07-27 16:45:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:panda": "2024-07-27 16:45:06 +0200"
+    },
+    "done": false
+  },
   "DataVersion": 3465
 }

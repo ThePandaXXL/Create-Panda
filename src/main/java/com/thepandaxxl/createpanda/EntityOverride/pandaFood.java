@@ -37,6 +37,7 @@ public abstract class pandaFood extends Animal {
         this.goalSelector.addGoal(4, new TemptGoal(this, 2.0D, Ingredient.of(CPItems.BAMBOO_COOKIE.get()), false));
         this.goalSelector.addGoal(4, new TemptGoal(this, 2.0D, Ingredient.of(CPItems.BAMBOO_SWEET_ROLL.get()), false));
         this.goalSelector.addGoal(4, new TemptGoal(this, 2.0D, Ingredient.of(CPItems.BAMBOO_BREAD.get()), false));
+        this.goalSelector.addGoal(4, new TemptGoal(this, 2.0D, Ingredient.of(CPItems.BAMBOO_CHICKEN.get()), false));
         this.goalSelector.addGoal(4, new TemptGoal(this, 2.0D, Ingredient.of(CPItems.GOLDEN_BAMBOO.get()), false));
     }
 
@@ -55,6 +56,7 @@ public abstract class pandaFood extends Animal {
                 || itemStack.is(CPItems.BAMBOO_COOKIE.get())
                 || itemStack.is(CPItems.BAMBOO_SWEET_ROLL.get())
                 || itemStack.is(CPItems.BAMBOO_BREAD.get())
+                || itemStack.is(CPItems.BAMBOO_CHICKEN.get())
                 || itemStack.is(CPItems.GOLDEN_BAMBOO.get())) {
             return true;
         } else {
