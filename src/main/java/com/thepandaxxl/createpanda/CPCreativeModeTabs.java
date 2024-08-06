@@ -31,8 +31,10 @@ public class CPCreativeModeTabs {
         //Blocks
         output.accept(CPBlocks.BAMBOO_CREAM_CAKE.get());
         output.accept(CPBlocks.BAMBOO_BAMBOO_CREAM_CAKE.get());
+        output.accept(CPBlocks.GOLDEN_BAMBOO_BAMBOO_CREAM_CAKE.get());
 
         //Items
+        output.accept(CPItems.BAMBOO_OF_UNDYING.get());
         output.accept(CPItems.BAMBOO_OREO.get());
         output.accept(CPItems.BAMBOOED_APPLE.get());
         output.accept(CPItems.BAMBOO_BERRIES.get());

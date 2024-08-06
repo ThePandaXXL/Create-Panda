@@ -1,0 +1,25 @@
+{
+    "variants": {
+        "bites=0": {
+            "model": "createpanda:block/golden_bamboo_bamboo_cream_cake/cake"
+        },
+        "bites=1": {
+            "model": "createpanda:block/golden_bamboo_bamboo_cream_cake/slice1"
+        },
+        "bites=2": {
+            "model": "createpanda:block/golden_bamboo_bamboo_cream_cake/slice2"
+        },
+        "bites=3": {
+            "model": "createpanda:block/golden_bamboo_bamboo_cream_cake/slice3"
+        },
+        "bites=4": {
+            "model": "createpanda:block/golden_bamboo_bamboo_cream_cake/slice4"
+        },
+        "bites=5": {
+            "model": "createpanda:block/golden_bamboo_bamboo_cream_cake/slice5"
+        },
+        "bites=6": {
+            "model": "createpanda:block/golden_bamboo_bamboo_cream_cake/slice6"
+        }
+    }
+}

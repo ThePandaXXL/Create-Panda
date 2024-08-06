@@ -20,12 +20,14 @@ public class PandaMoveToBlock {
             this.panda = panda;
         }
 
+        @SuppressWarnings("null")
         @Override
         protected boolean isValidTarget(LevelReader levelReader, BlockPos pos) {
             BlockState blockState = this.panda.level().getBlockState(pos);
             if (blockState.is(Blocks.BAMBOO)
                     || blockState.is(CPBlocks.BAMBOO_CREAM_CAKE.get())
-                    || blockState.is(CPBlocks.BAMBOO_BAMBOO_CREAM_CAKE.get())) {
+                    || blockState.is(CPBlocks.BAMBOO_BAMBOO_CREAM_CAKE.get())
+                    || blockState.is(CPBlocks.GOLDEN_BAMBOO_BAMBOO_CREAM_CAKE.get())) {
                 return true;
             } else {
                 return false;
@@ -42,10 +44,9 @@ public class PandaMoveToBlock {
             if (isReachedTarget() && tryTicks > 2) {
                 panda.getNavigation().stop();
                 BlockState blockState = this.panda.level().getBlockState(getMoveToTarget().below());
-                if (
-                    blockState.is(CPBlocks.BAMBOO_CREAM_CAKE.get())
-                    || blockState.is(CPBlocks.BAMBOO_BAMBOO_CREAM_CAKE.get())
-                    ) {
+                if (blockState.is(CPBlocks.BAMBOO_CREAM_CAKE.get())
+                        || blockState.is(CPBlocks.BAMBOO_BAMBOO_CREAM_CAKE.get())
+                        || blockState.is(CPBlocks.GOLDEN_BAMBOO_BAMBOO_CREAM_CAKE.get())) {
                     this.panda.level().setBlockAndUpdate(getMoveToTarget().below(), Blocks.AIR.defaultBlockState());
                     this.panda.playSound(SoundEvents.PANDA_EAT);
                 }

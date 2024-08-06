@@ -1,0 +1,22 @@
+{
+    "textures": {
+        "particle": "createpanda:block/golden_bamboo_bamboo_cream_cake/side",
+        "bottom": "createpanda:block/golden_bamboo_bamboo_cream_cake/bottom",
+        "top": "createpanda:block/golden_bamboo_bamboo_cream_cake/top",
+        "side": "createpanda:block/golden_bamboo_bamboo_cream_cake/side",
+        "inside": "createpanda:block/golden_bamboo_bamboo_cream_cake/inner"
+    },
+    "elements": [
+        {   "from": [ 11, 0, 1 ],
+            "to": [ 15, 8, 15 ],
+            "faces": {
+                "down":  { "texture": "#bottom", "cullface": "down" },
+                "up":    { "texture": "#top" },
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side" },
+                "west":  { "texture": "#inside" },
+                "east":  { "texture": "#side" }
+            }
+        }
+    ]
+}

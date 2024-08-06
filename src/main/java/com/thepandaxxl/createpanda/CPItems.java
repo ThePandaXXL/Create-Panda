@@ -6,8 +6,10 @@ import com.thepandaxxl.createpanda.Tags.BambooChocolateCandyItem;
 import com.thepandaxxl.createpanda.Tags.CPSoupItem;
 import com.thepandaxxl.createpanda.Tags.BambooBeerItem;
 import com.thepandaxxl.createpanda.Tags.BambooJuiceItem;
+import com.thepandaxxl.createpanda.Tags.BambooOfUndyingItem;
 
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Rarity;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -16,6 +18,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class CPItems {
 
     public static final DeferredRegister<Item> ITEMS;
+    public static final RegistryObject<Item> BAMBOO_OF_UNDYING;
     public static final RegistryObject<Item> BAMBOO_OREO;
     public static final RegistryObject<Item> BAMBOO_OREO_INCOMPLETE;
     public static final RegistryObject<Item> BAMBOOED_APPLE;
@@ -42,6 +45,10 @@ public class CPItems {
 
     static {
         ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, createpanda.ID);
+
+        BAMBOO_OF_UNDYING = ITEMS.register("bamboo_of_undying", () -> {
+            return new BambooOfUndyingItem(new Item.Properties().rarity(Rarity.RARE).durability(4));
+        });
 
         BAMBOO_OREO = ITEMS.register("bamboo_oreo", () -> {
             return new Item(new Item.Properties().food(ModFoods.OREO));
@@ -96,7 +103,7 @@ public class CPItems {
         });
 
         GOLDEN_BAMBOO = ITEMS.register("golden_bamboo", () -> {
-            return new Item(new Item.Properties().food(CPFoods.GOLDEN_BAMBOO));
+            return new Item(new Item.Properties().food(CPFoods.GOLDEN_BAMBOO).rarity(Rarity.RARE));
         });
 
         BAMBOO_BEER = ITEMS.register("bamboo_beer", () -> {

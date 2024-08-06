@@ -8,10 +8,13 @@ import com.tterrag.registrate.util.entry.BlockEntry;
 
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
+
+@SuppressWarnings({ "unchecked", "rawtypes" })
 public class CPBlocks {
 
     public static final BlockEntry<CACakeBlock> BAMBOO_CREAM_CAKE;
     public static final BlockEntry<CACakeBlock> BAMBOO_BAMBOO_CREAM_CAKE;
+    public static final BlockEntry<CACakeBlock> GOLDEN_BAMBOO_BAMBOO_CREAM_CAKE;
 
     public CPBlocks() {
     }
@@ -32,8 +35,18 @@ public class CPBlocks {
                 }).properties((props) -> {
                     return props.sound(SoundType.WOOL).strength(0.5F);
                 }).item().tag(AllItemTags.UPRIGHT_ON_BELT.tag).transform(ModelGen.customItemModel())).register();
+
+        GOLDEN_BAMBOO_BAMBOO_CREAM_CAKE = ((BlockBuilder) createpanda.REGISTRATE
+                .block("golden_bamboo_bamboo_cream_cake", CACakeBlock::new)
+                .initialProperties(() -> {
+                    return Blocks.CAKE;
+                }).properties((props) -> {
+                    return props.sound(SoundType.WOOL).strength(0.5F);
+                }).item().tag(AllItemTags.UPRIGHT_ON_BELT.tag).transform(ModelGen.customItemModel())).register();
+
     }
 
-    public static void register() {}
+    public static void register() {
+    }
 
 }

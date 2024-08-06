@@ -5,26 +5,19 @@ import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.thepandaxxl.createpanda.AIGoals.PandaMoveToBlock;
-import com.thepandaxxl.createpanda.AIGoals.PandaMoveToBlock.PandaMoveToBlockGoal;
-import com.thepandaxxl.createpanda.EntityOverride.pandaFood;
 
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.animal.Panda;
-import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.event.entity.EntityJoinLevelEvent;
 
 import com.mrh0.createaddition.CreateAddition;
 //import net.mcreator.createconfectionery.CreateConfectioneryMod;
 import com.simibubi.create.Create;
-import com.simibubi.create.content.fluids.transfer.EmptyingRecipe;
 import com.Imphuls3.createcafe.CreateCafe;
 
 @Mod(createpanda.ID)

@@ -1,9 +1,15 @@
 {
-    "package": "com.thepandaxxl.createpanda.EntityOverride",
+    "required": true,
+    "package": "com.thepandaxxl.createpanda.mixin",
     "mixins": [
-        "pandaFood"
+      "pandaFood",
+      "livingEntityMixin"
     ],
-    "client": [],
-    "server": [],
-    "required": true
-}
+    "client": [
+      "clientPlayNetworkHandlerMixin"
+    ],
+      "injectors": {
+      "defaultRequire": 1
+    },
+    "refmap": "createpanda.refmap.json"
+  }

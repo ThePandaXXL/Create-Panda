@@ -1,0 +1,4 @@
+com/thepandaxxl/createpanda/mixin/livingEntityMixin getItemInHand (Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack; m_21120_
+com/thepandaxxl/createpanda/mixin/livingEntityMixin setHealth (F)V m_21153_
+com/thepandaxxl/createpanda/mixin/livingEntityMixin removeAllEffects ()Z m_21219_
+com/thepandaxxl/createpanda/mixin/livingEntityMixin addEffect (Lnet/minecraft/world/effect/MobEffectInstance;)Z m_7292_

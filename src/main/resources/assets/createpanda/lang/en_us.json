@@ -4,8 +4,10 @@
     "fluid.createpanda.bamboo_syrup": "Bamboo Syrup",
     "block.createpanda.bamboo_cream_cake": "Bamboo Cream Cake",
     "block.createpanda.bamboo_bamboo_cream_cake": "Bamboo Cream Cake with Bamboo",
+    "block.createpanda.golden_bamboo_bamboo_cream_cake": "Bamboo Cream Cake with Golden Bamboo",
     "item.createpanda.bamboo_cream_bucket": "Bamboo Cream Bucket",
     "item.createpanda.bamboo_syrup_bucket": "Bamboo Syrup Bucket",
+    "item.createpanda.bamboo_of_undying": "Bamboo of Undying",
     "item.createpanda.bamboo_oreo_incomplete": "Incomplete Bambuu Oreo",
     "item.createpanda.bamboo_oreo": "Bambuu Oreo",
     "item.createpanda.bambooed_apple": "Bambooed Apple",
@@ -24,5 +26,6 @@
     "item.createpanda.bamboo_beer": "Bamboo Beer",
     "item.createpanda.bamboo_juice": "Bamboo Juice",
     "tooltip.createpanda.luck3.00": "Luck (3:00)",
-    "tooltip.createpanda.nausea3.00": "50% Nausea (3:00)"
+    "tooltip.createpanda.nausea3.00": "50% Nausea (3:00)",
+    "tooltip.createpanda.bamboo_of_undying": "4x Totem of Undying"
 }

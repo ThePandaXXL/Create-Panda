@@ -4,8 +4,10 @@
     "fluid.createpanda.bamboo_syrup": "Bambussirup",
     "block.createpanda.bamboo_cream_cake": "Bambuscremekuchen",
     "block.createpanda.bamboo_bamboo_cream_cake": "Bambuscremekuchen mit Bambus",
+    "block.createpanda.golden_bamboo_bamboo_cream_cake": "Bambuscremekuchen mit goldenem Bambus",
     "item.createpanda.bamboo_cream_bucket": "Eimer voll Bambuscreme",
     "item.createpanda.bamboo_syrup_bucket": "Eimer voll Bambussirup",
+    "item.createpanda.bamboo_of_undying": "Bambus der Unsterblichkeit",
     "item.createpanda.bamboo_oreo_incomplete": "Unfertiger Bambusoreo",
     "item.createpanda.bamboo_oreo": "Bambusoreo",
     "item.createpanda.bambooed_apple": "Bambusapfel",
@@ -24,5 +26,6 @@
     "item.createpanda.bamboo_beer": "Bambus Bier",
     "item.createpanda.bamboo_juice": "Bambus Saft",
     "tooltip.createpanda.luck3.00": "Glück (3:00)",
-    "tooltip.createpanda.nausea3.00": "50% Übelkeit (3:00)"
+    "tooltip.createpanda.nausea3.00": "50% Übelkeit (3:00)",
+    "tooltip.createpanda.bamboo_of_undying": "4x Totem der Unsterblichkeit"
 }
