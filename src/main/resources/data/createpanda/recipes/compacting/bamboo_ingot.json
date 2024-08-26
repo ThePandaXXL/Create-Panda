@@ -1,0 +1,46 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "item": "createpanda:bamboo_essence"
+        },
+        {
+            "item": "createpanda:bamboo_essence"
+        },
+        {
+            "item": "createpanda:bamboo_essence"
+        },
+        {
+            "item": "createpanda:bamboo_essence"
+        },
+        {
+            "item": "createpanda:bamboo_essence"
+        },
+        {
+            "item": "createpanda:bamboo_essence"
+        },
+        {
+            "item": "createpanda:bamboo_essence"
+        },
+        {
+            "item": "createpanda:bamboo_essence"
+        },
+        {
+            "item": "createpanda:bamboo_essence"
+        },
+        {
+            "fluid": "createpanda:bamboo_cream",
+            "amount": 500
+        },
+        {
+            "fluid": "createpanda:bamboo_syrup",
+            "amount": 500
+        }
+    ],
+    "results": [
+        {
+            "item": "createpanda:bamboo_ingot"
+        }
+    ],
+    "heatRequirement": "superheated"
+}

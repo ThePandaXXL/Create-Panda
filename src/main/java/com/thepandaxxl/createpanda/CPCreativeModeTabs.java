@@ -12,6 +12,8 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
+import net.minecraft.world.item.Items;
+
 @EventBusSubscriber(bus = Bus.MOD)
 public class CPCreativeModeTabs {
 
@@ -50,6 +52,11 @@ public class CPCreativeModeTabs {
         output.accept(CPItems.GOLDEN_BAMBOO.get());
         output.accept(CPItems.BAMBOO_BEER.get());
         output.accept(CPItems.BAMBOO_JUICE.get());
+        output.accept(CPItems.BAMBOO_FRAGMENT.get());
+        output.accept(CPItems.BAMBOO_SHARD.get());
+        output.accept(CPItems.BAMBOO_ESSENCE.get());
+        output.accept(CPItems.BAMBOO_INGOT.get());
+        output.accept(CPItems.BAMBOO_ROD.get());
         
     })
     .build()

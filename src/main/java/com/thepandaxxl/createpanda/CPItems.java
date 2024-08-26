@@ -4,6 +4,7 @@ import com.Imphuls3.createcafe.common.item.foods.ModFoods;
 import com.simibubi.create.content.processing.sequenced.SequencedAssemblyItem;
 import com.thepandaxxl.createpanda.Tags.BambooChocolateCandyItem;
 import com.thepandaxxl.createpanda.Tags.CPSoupItem;
+import com.thepandaxxl.createpanda.Tags.enchantedItem;
 import com.thepandaxxl.createpanda.Tags.BambooBeerItem;
 import com.thepandaxxl.createpanda.Tags.BambooJuiceItem;
 import com.thepandaxxl.createpanda.Tags.BambooOfUndyingItem;
@@ -35,6 +36,11 @@ public class CPItems {
     public static final RegistryObject<Item> GOLDEN_BAMBOO;
     public static final RegistryObject<Item> BAMBOO_BEER;
     public static final RegistryObject<Item> BAMBOO_JUICE;
+    public static final RegistryObject<Item> BAMBOO_FRAGMENT;
+    public static final RegistryObject<Item> BAMBOO_SHARD;
+    public static final RegistryObject<Item> BAMBOO_ESSENCE;
+    public static final RegistryObject<Item> BAMBOO_INGOT;
+    public static final RegistryObject<Item> BAMBOO_ROD;
 
     public CPItems() {
     }
@@ -112,6 +118,26 @@ public class CPItems {
 
         BAMBOO_JUICE = ITEMS.register("bamboo_juice", () -> {
             return new BambooJuiceItem(new Item.Properties().food(CPFoods.BAMBOO_JUICE));
+        });
+
+        BAMBOO_FRAGMENT = ITEMS.register("bamboo_fragment", () -> {
+            return new Item(new Item.Properties());
+        });
+
+        BAMBOO_SHARD = ITEMS.register("bamboo_shard", () -> {
+            return new Item(new Item.Properties());
+        });
+
+        BAMBOO_ESSENCE = ITEMS.register("bamboo_essence", () -> {
+            return new enchantedItem(new Item.Properties().rarity(Rarity.UNCOMMON));
+        });
+
+        BAMBOO_INGOT = ITEMS.register("bamboo_ingot", () -> {
+            return new enchantedItem(new Item.Properties().rarity(Rarity.UNCOMMON));
+        });
+
+        BAMBOO_ROD = ITEMS.register("bamboo_rod", () -> {
+            return new enchantedItem(new Item.Properties().rarity(Rarity.UNCOMMON));
         });
 
     }

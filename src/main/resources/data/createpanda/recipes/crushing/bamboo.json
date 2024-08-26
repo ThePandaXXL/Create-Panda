@@ -1,0 +1,23 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+      {
+        "item": "minecraft:bamboo"
+      }
+    ],
+    "results": [
+      {
+        "item": "createpanda:bamboo_fragment",
+        "count": 3
+      },
+      {
+        "item": "createpanda:bamboo_fragment",
+        "chance": 0.5
+      },
+      {
+        "item": "createpanda:bamboo_shard",
+        "chance": 0.3
+      }
+    ],
+    "processingTime": 100
+  }

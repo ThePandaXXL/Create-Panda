@@ -25,6 +25,11 @@
     "item.createpanda.golden_bamboo": "Golden Bamboo",
     "item.createpanda.bamboo_beer": "Bamboo Beer",
     "item.createpanda.bamboo_juice": "Bamboo Juice",
+    "item.createpanda.bamboo_fragment": "Bamboo Fragment",
+    "item.createpanda.bamboo_shard": "Bamboo Shard",
+    "item.createpanda.bamboo_essence": "Bamboo Essence",
+    "item.createpanda.bamboo_ingot": "Bamboo Ingot",
+    "item.createpanda.bamboo_rod": "Bamboo Rod",
     "tooltip.createpanda.luck3.00": "Luck (3:00)",
     "tooltip.createpanda.nausea3.00": "50% Nausea (3:00)",
     "tooltip.createpanda.bamboo_of_undying": "4x Totem of Undying"

@@ -1,0 +1,15 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+      {
+        "item": "createpanda:bamboo_shard"
+      }
+    ],
+    "results": [
+      {
+        "item": "createpanda:bamboo_essence",
+        "count": 2
+      }
+    ],
+    "processingTime": 100
+  }

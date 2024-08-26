@@ -1,0 +1,10 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"item": "createpanda:bamboo_ingot"
+	},
+	"result": {
+		"item": "createpanda:bamboo_rod",
+		"count": 2
+	}
+}

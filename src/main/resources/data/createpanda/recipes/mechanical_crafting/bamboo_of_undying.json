@@ -1,0 +1,44 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "  RRRRR  ",
+        "  RBBBR  ",
+        "  RTBTR  ",
+        "  RFGFR  ",
+        "SSGGGGGSS",
+        " SEIEIES ",
+        "  REIER  ",
+        "  REIER  ",
+        "   RRR   "
+    ],
+    "key": {
+        "R": {
+            "item": "createpanda:bamboo_rod"
+        },
+        "B": {
+            "item": "minecraft:bamboo"
+        },
+        "T": {
+            "item": "minecraft:totem_of_undying"
+        },
+        "F": {
+            "item": "createpanda:bamboo_fragment"
+        },
+        "G": {
+            "item": "createpanda:golden_bamboo"
+        },
+        "S": {
+            "item": "createpanda:bamboo_shard"
+        },
+        "E": {
+            "item": "createpanda:bamboo_essence"
+        },
+        "I": {
+            "item": "createpanda:bamboo_ingot"
+        }
+    },
+    "result": {
+        "item": "createpanda:bamboo_of_undying"
+    },
+    "acceptMirrored": false
+}
