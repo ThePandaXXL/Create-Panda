@@ -3,7 +3,9 @@ Specification-Title: createpanda
 Specification-Vendor: ThePandaXXL
 Specification-Version: 1
 Implementation-Title: mr_createpanda-1.20.1-47.2.0
-Implementation-Version: 2.0.3
+Implementation-Version: 2.0.4
 Implementation-Vendor: ThePandaXXL
-Implementation-Timestamp: 2024-07-22T19:09:26+0200
+Implementation-Timestamp: 2024-08-27T15:44:38+0200
+MixinConfigs: createpanda.mixins.json
+MixinRefMap: createpanda.refmap.json
 

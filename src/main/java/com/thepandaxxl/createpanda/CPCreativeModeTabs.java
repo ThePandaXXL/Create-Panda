@@ -36,7 +36,6 @@ public class CPCreativeModeTabs {
         output.accept(CPBlocks.GOLDEN_BAMBOO_BAMBOO_CREAM_CAKE.get());
 
         //Items
-        output.accept(CPItems.BAMBOO_OF_UNDYING.get());
         output.accept(CPItems.BAMBOO_OREO.get());
         output.accept(CPItems.BAMBOOED_APPLE.get());
         output.accept(CPItems.BAMBOO_BERRIES.get());
@@ -46,17 +45,18 @@ public class CPCreativeModeTabs {
         output.accept(CPItems.BAMBOO_COOKIE.get());
         output.accept(CPItems.BAMBOO_SOUP.get());
         output.accept(CPItems.BAMBOO_SWEET_ROLL.get());
-        output.accept(CPItems.BAMBOO_DOUGH.get());
         output.accept(CPItems.BAMBOO_BREAD.get());
         output.accept(CPItems.BAMBOO_CHICKEN.get());
         output.accept(CPItems.GOLDEN_BAMBOO.get());
         output.accept(CPItems.BAMBOO_BEER.get());
         output.accept(CPItems.BAMBOO_JUICE.get());
+        output.accept(CPItems.BAMBOO_DOUGH.get());
         output.accept(CPItems.BAMBOO_FRAGMENT.get());
         output.accept(CPItems.BAMBOO_SHARD.get());
         output.accept(CPItems.BAMBOO_ESSENCE.get());
         output.accept(CPItems.BAMBOO_INGOT.get());
         output.accept(CPItems.BAMBOO_ROD.get());
+        output.accept(CPItems.BAMBOO_OF_UNDYING.get());
         
     })
     .build()
