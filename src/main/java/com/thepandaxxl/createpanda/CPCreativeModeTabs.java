@@ -39,9 +39,18 @@ public class CPCreativeModeTabs {
         output.accept(CPItems.BAMBOO_OREO.get());
         output.accept(CPItems.BAMBOOED_APPLE.get());
         output.accept(CPItems.BAMBOO_BERRIES.get());
+        output.accept(CPItems.BAMBOO_GLAZED_MARSHMALLOW.get());
         output.accept(CPItems.BAR_OF_BAMBOO.get());
+        output.accept(CPItems.FULL_BAMBOO_BAR.get());
+        output.accept(CPItems.BAMBOO_CHOCOLATE_CANDY.get());
         output.accept(CPItems.BAMBOO_CHOCOLATE_CANDY_1.get());
+        output.accept(CPItems.BAMBOO_CHOCOLATE_CANDY_2.get());
+        output.accept(CPItems.BAMBOO_CHOCOLATE_CANDY_3.get());
+        output.accept(CPItems.BAMBOO_CHOCOLATE_CANDY_4.get());
         output.accept(CPItems.CHOCOLATE_CANDY_4.get());
+        output.accept(CPItems.WHITE_CHOCOLATE_CANDY_4.get());
+        output.accept(CPItems.DARK_CHOCOLATE_CANDY_4.get());
+        output.accept(CPItems.RUBY_CHOCOLATE_CANDY_4.get());
         output.accept(CPItems.BAMBOO_COOKIE.get());
         output.accept(CPItems.BAMBOO_SOUP.get());
         output.accept(CPItems.BAMBOO_SWEET_ROLL.get());

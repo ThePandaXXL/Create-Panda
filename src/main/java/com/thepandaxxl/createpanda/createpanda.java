@@ -16,7 +16,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.event.entity.EntityJoinLevelEvent;
 
 import com.mrh0.createaddition.CreateAddition;
-//import net.mcreator.createconfectionery.CreateConfectioneryMod;
+import net.mcreator.createconfectionery.CreateConfectioneryMod;
 import com.simibubi.create.Create;
 import com.Imphuls3.createcafe.CreateCafe;
 
@@ -29,7 +29,7 @@ public class createpanda {
     public static final Logger LOGGER = LogUtils.getLogger();
     public static final String ID = "createpanda";
     public static final String NAME = "Create Panda";
-    public static final String VERSION = "2.0.4";
+    public static final String VERSION = "2.0.4.1";
 
     public static final CreateRegistrate REGISTRATE = CreateRegistrate.create(ID);
 

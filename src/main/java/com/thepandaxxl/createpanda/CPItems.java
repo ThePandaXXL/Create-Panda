@@ -1,5 +1,6 @@
 package com.thepandaxxl.createpanda;
 
+import net.mcreator.createconfectionery.item.FullChocolateBarItem;
 import com.Imphuls3.createcafe.common.item.foods.ModFoods;
 import com.simibubi.create.content.processing.sequenced.SequencedAssemblyItem;
 import com.thepandaxxl.createpanda.Tags.BambooChocolateCandyItem;
@@ -24,9 +25,18 @@ public class CPItems {
     public static final RegistryObject<Item> BAMBOO_OREO_INCOMPLETE;
     public static final RegistryObject<Item> BAMBOOED_APPLE;
     public static final RegistryObject<Item> BAMBOO_BERRIES;
+    public static final RegistryObject<Item> BAMBOO_GLAZED_MARSHMALLOW;
     public static final RegistryObject<Item> BAR_OF_BAMBOO;
+    public static final RegistryObject<Item> FULL_BAMBOO_BAR;
+    public static final RegistryObject<Item> BAMBOO_CHOCOLATE_CANDY;
     public static final RegistryObject<Item> BAMBOO_CHOCOLATE_CANDY_1;
+    public static final RegistryObject<Item> BAMBOO_CHOCOLATE_CANDY_2;
+    public static final RegistryObject<Item> BAMBOO_CHOCOLATE_CANDY_3;
+    public static final RegistryObject<Item> BAMBOO_CHOCOLATE_CANDY_4;
     public static final RegistryObject<Item> CHOCOLATE_CANDY_4;
+    public static final RegistryObject<Item> WHITE_CHOCOLATE_CANDY_4;
+    public static final RegistryObject<Item> DARK_CHOCOLATE_CANDY_4;
+    public static final RegistryObject<Item> RUBY_CHOCOLATE_CANDY_4;
     public static final RegistryObject<Item> BAMBOO_COOKIE;
     public static final RegistryObject<Item> BAMBOO_SOUP;
     public static final RegistryObject<Item> BAMBOO_SWEET_ROLL;
@@ -72,15 +82,51 @@ public class CPItems {
             return new Item(new Item.Properties().food(CPFoods.BAMBOO_BERRIES));
         });
 
+        BAMBOO_GLAZED_MARSHMALLOW = ITEMS.register("bamboo_glazed_marshmallow", () -> {
+            return new Item(new Item.Properties().food(CPFoods.BAMBOO_GLAZED_MARSHMALLOW));
+        });
+
         BAR_OF_BAMBOO = ITEMS.register("bar_of_bamboo", () -> {
             return new Item(new Item.Properties().food(CPFoods.BAR_OF_BAMBOO));
+        });
+
+        FULL_BAMBOO_BAR = ITEMS.register("full_bamboo_bar", () -> {
+            return new FullChocolateBarItem();
+        });
+
+        BAMBOO_CHOCOLATE_CANDY = ITEMS.register("bamboo_chocolate_candy", () -> {
+            return new BambooChocolateCandyItem(new Item.Properties().food(CPFoods.BAMBOO_CHOCOLATE_CANDY));
         });
 
         BAMBOO_CHOCOLATE_CANDY_1 = ITEMS.register("bamboo_chocolate_candy_1", () -> {
             return new BambooChocolateCandyItem(new Item.Properties().food(CPFoods.BAMBOO_CHOCOLATE_CANDY));
         });
 
+        BAMBOO_CHOCOLATE_CANDY_2 = ITEMS.register("bamboo_chocolate_candy_2", () -> {
+            return new BambooChocolateCandyItem(new Item.Properties().food(CPFoods.BAMBOO_CHOCOLATE_CANDY));
+        });
+
+        BAMBOO_CHOCOLATE_CANDY_3 = ITEMS.register("bamboo_chocolate_candy_3", () -> {
+            return new BambooChocolateCandyItem(new Item.Properties().food(CPFoods.BAMBOO_CHOCOLATE_CANDY));
+        });
+
+        BAMBOO_CHOCOLATE_CANDY_4 = ITEMS.register("bamboo_chocolate_candy_4", () -> {
+            return new BambooChocolateCandyItem(new Item.Properties().food(CPFoods.BAMBOO_CHOCOLATE_CANDY));
+        });
+
         CHOCOLATE_CANDY_4 = ITEMS.register("chocolate_candy_4", () -> {
+            return new BambooChocolateCandyItem(new Item.Properties().food(CPFoods.BAMBOO_CHOCOLATE_CANDY));
+        });
+
+        WHITE_CHOCOLATE_CANDY_4 = ITEMS.register("white_chocolate_candy_4", () -> {
+            return new BambooChocolateCandyItem(new Item.Properties().food(CPFoods.BAMBOO_CHOCOLATE_CANDY));
+        });
+
+        DARK_CHOCOLATE_CANDY_4 = ITEMS.register("dark_chocolate_candy_4", () -> {
+            return new BambooChocolateCandyItem(new Item.Properties().food(CPFoods.BAMBOO_CHOCOLATE_CANDY));
+        });
+
+        RUBY_CHOCOLATE_CANDY_4 = ITEMS.register("ruby_chocolate_candy_4", () -> {
             return new BambooChocolateCandyItem(new Item.Properties().food(CPFoods.BAMBOO_CHOCOLATE_CANDY));
         });
 

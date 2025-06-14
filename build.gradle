@@ -202,7 +202,7 @@ dependencies {
     implementation fg.deobf("com.Imphuls3.createcafe:createcafe:1.2.4-1.20.1")
 
     //Create Confecionery
-    //implementation fg.deobf("net.mcreator.createconfectionery:create-confectionery:1.20.1_v1.0.9")
+    implementation fg.deobf("net.mcreator.createconfectionery:create-confectionery:1.20.1_v1.1.0")
 
     // compile against the JEI API but do not include it at runtime
      compileOnly(fg.deobf("mezz.jei:jei-${mc_version}-common-api:${jei_version}"))
