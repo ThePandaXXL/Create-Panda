@@ -1,0 +1,18 @@
+{
+    "type": "create:cutting",
+    "ingredients": [
+        {
+            "item": "createpanda:cooked_donut_mold"
+        }
+    ],
+    "processingTime": 200,
+    "results": [
+        {
+            "count": 2,
+            "item": "createpanda:donut_mold_half"
+        },
+        {
+            "item": "createpanda:cooked_donut"
+        }
+    ]
+}

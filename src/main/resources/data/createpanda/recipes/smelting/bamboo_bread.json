@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "cookingtime": 200,
+    "experience": 0.0,
+    "ingredient": {
+        "item": "createpanda:bamboo_dough"
+    },
+    "result": "createpanda:bamboo_bread"
+}

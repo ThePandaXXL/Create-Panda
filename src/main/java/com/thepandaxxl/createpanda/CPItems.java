@@ -21,6 +21,8 @@ public class CPItems {
 
     public static final DeferredRegister<Item> ITEMS;
     public static final RegistryObject<Item> BAMBOO_OF_UNDYING;
+    public static final RegistryObject<Item> COOKED_DONUT;
+    public static final RegistryObject<Item> BAMBOO_DONUT;
     public static final RegistryObject<Item> BAMBOO_OREO;
     public static final RegistryObject<Item> BAMBOO_OREO_INCOMPLETE;
     public static final RegistryObject<Item> BAMBOOED_APPLE;
@@ -51,6 +53,10 @@ public class CPItems {
     public static final RegistryObject<Item> BAMBOO_ESSENCE;
     public static final RegistryObject<Item> BAMBOO_INGOT;
     public static final RegistryObject<Item> BAMBOO_ROD;
+    public static final RegistryObject<Item> DONUT_MOLD;
+    public static final RegistryObject<Item> DONUT_MOLD_HALF;
+    public static final RegistryObject<Item> FILLED_DONUT_MOLD;
+    public static final RegistryObject<Item> COOKED_DONUT_MOLD;
 
     public CPItems() {
     }
@@ -72,6 +78,14 @@ public class CPItems {
 
         BAMBOO_OREO_INCOMPLETE = ITEMS.register("bamboo_oreo_incomplete", () -> {
             return new SequencedAssemblyItem(new Item.Properties());
+        });
+
+        COOKED_DONUT = ITEMS.register("cooked_donut", () -> {
+            return new Item(new Item.Properties().food(CPFoods.COOKED_DONUT));
+        });
+
+        BAMBOO_DONUT = ITEMS.register("bamboo_donut", () -> {
+            return new Item(new Item.Properties().food(CPFoods.BAMBOO_DONUT));
         });
 
         BAMBOOED_APPLE = ITEMS.register("bambooed_apple", () -> {
@@ -184,6 +198,22 @@ public class CPItems {
 
         BAMBOO_ROD = ITEMS.register("bamboo_rod", () -> {
             return new enchantedItem(new Item.Properties().rarity(Rarity.UNCOMMON));
+        });
+
+        DONUT_MOLD = ITEMS.register("donut_mold", () -> {
+            return new Item(new Item.Properties());
+        });
+
+        DONUT_MOLD_HALF = ITEMS.register("donut_mold_half", () -> {
+            return new Item(new Item.Properties());
+        });
+
+        FILLED_DONUT_MOLD = ITEMS.register("filled_donut_mold", () -> {
+            return new Item(new Item.Properties());
+        });
+
+        COOKED_DONUT_MOLD = ITEMS.register("cooked_donut_mold", () -> {
+            return new Item(new Item.Properties());
         });
 
     }

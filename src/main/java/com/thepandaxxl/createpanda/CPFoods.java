@@ -6,6 +6,8 @@ import net.minecraft.world.food.FoodProperties;
 
 public class CPFoods {
     
+    public static final FoodProperties COOKED_DONUT = (new FoodProperties.Builder()).nutrition(6).saturationMod(0.8F).build();
+    public static final FoodProperties BAMBOO_DONUT = (new FoodProperties.Builder()).nutrition(8).saturationMod(1F).build();
     public static final FoodProperties BAMBOOED_APPLE = (new FoodProperties.Builder()).nutrition(8).saturationMod(0.8F).build();
     public static final FoodProperties BAMBOO_BERRIES = (new FoodProperties.Builder()).nutrition(7).saturationMod(0.8F).build();
     public static final FoodProperties BAMBOO_GLAZED_MARSHMALLOW = (new FoodProperties.Builder().nutrition(5).saturationMod(0.6F).alwaysEat().build());

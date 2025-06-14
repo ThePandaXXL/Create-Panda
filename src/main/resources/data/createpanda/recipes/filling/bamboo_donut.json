@@ -1,0 +1,18 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+      {
+        "item": "createpanda:cooked_donut"
+      },
+      {
+        "fluid": "createpanda:bamboo_cream",
+        "nbt": {},
+        "amount": 250
+      }
+    ],
+    "results": [
+      {
+        "item": "createpanda:bamboo_donut"
+      }
+    ]
+  }

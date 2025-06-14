@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "xx ",
+        "   ",
+        "   "
+    ],
+    "key": {
+        "x": {
+            "item": "createpanda:donut_mold_half"
+        }
+    },
+    "result": {
+        "item": "createpanda:donut_mold",
+        "count": 1
+    }
+}

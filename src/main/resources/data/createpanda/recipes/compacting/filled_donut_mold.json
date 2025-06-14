@@ -1,0 +1,16 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "item": "createpanda:donut_mold"
+        },
+        {
+            "item": "create:dough"
+        }
+    ],
+    "results": [
+        {
+            "item": "createpanda:filled_donut_mold"
+        }
+    ]
+}

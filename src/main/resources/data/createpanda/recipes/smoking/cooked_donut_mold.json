@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": {
+        "item": "createpanda:filled_donut_mold"
+    },
+    "result": "createpanda:cooked_donut_mold",
+    "experience": 0.0,
+    "cookingtime": 100
+}
